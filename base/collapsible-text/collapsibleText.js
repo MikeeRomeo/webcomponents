@@ -1,7 +1,52 @@
 const template = document.createElement('template');
 
 template.innerHTML = `
-    <link rel="stylesheet" href="/collapsible-text/component.css" type="text/css">
+    <style>
+        :host{
+            --ct-radius: 5px;
+            --ct-border-size: 1px;
+            --ct-border-style: solid;
+            --ct-border-color: #D6D6D6;
+            --ct-padding: 10px;
+            --ct-icon-size: 20px;
+            --ct-bg-color: #fff;
+        }
+        
+        .collapsible-item{
+            list-style: none;
+            cursor: pointer;
+            border: var(--ct-border-size) var(--ct-border-style) var(--ct-border-color);
+            background: var(--ct-bg);
+            padding: var(--ct-padding);
+            border-radius: var(--ct-radius);
+        }
+        
+        .collapsible-heading{
+            display: flex;
+            align-items: center;
+            transition: all 0.2s cubic-bezier(.25,.8,.25,1);
+        }
+        
+        .collapsible-heading.icon-left{
+            flex: row reverse;
+        }
+        
+        .collapsible-content{
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        
+        .collapsible-icon{
+            margin-left: auto;
+            max-width: var(--ct-icon-size);
+            transition: transform 0.2s cubic-bezier(.25,.8,.25,1);
+        }
+        
+        .collapsible-item.active .collapsible-icon{
+            transform: rotate(180deg);
+        } 
+    </style>
 
     <li class="collapsible-item">
         <div class="collapsible-heading">
