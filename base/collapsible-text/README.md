@@ -1,4 +1,4 @@
-# @mikeromeo/npm-test
+# @mikeromeo/collapsible-text
 
 [![npm (scoped)](https://img.shields.io/npm/v/@mikeromeo/collapsible-text.svg)](https://www.npmjs.com/package/@mikeromeo/collapsible-text)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@mikeromeo/collapsible-text.svg)](https://www.npmjs.com/package/@mikeromeo/collapsible-text)
