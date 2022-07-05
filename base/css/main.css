@@ -1,0 +1,23 @@
+.collapsible-item{
+    color: red;
+}
+
+collapsible-text{
+    --ct-radius: 5px;
+    --ct-border-size: 3px;
+    --ct-padding: 15px;
+    --ct-icon-size: 10px;
+    /* --ct-bg-color: #fff; */
+}
+
+ul{
+    padding: 0;
+    
+    li + li{
+        border-top: 0;
+    }
+
+    li{
+        font-size: 20px;
+    }
+}

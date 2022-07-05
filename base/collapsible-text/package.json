@@ -1,0 +1,11 @@
+{
+  "name": "@mikeromeo/collapsible-text",
+  "version": "1.0.0",
+  "description": "Collapsible text component",
+  "main": "collapsibleText.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Romeo",
+  "license": "MIT"
+}

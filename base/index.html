@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcomponent test</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <main>
+        <h1>Test voor component</h1>
+        <p>ipsum dolor sit amet, consectetur adipisicing elit. 
+        Est ipsa nemo ratione ut eligendi molestiae.</p>
+
+        <ul>
+            <collapsible-text icon_side="left">
+                <h3 slot="heading">
+                    Testing Webcomponent
+                </h3>
+                <span slot="icon">
+                    <svg viewbox="0 0 448 512">
+                        <path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/>
+                    </svg>
+                </span>
+                <p slot="content">
+                    ipsum dolor sit amet, consectetur adipisicing elit. Est ipsa nemo ratione ut eligendi molestiae.
+                </p>
+            </collapsible-text> 
+
+            <collapsible-text icon_side="right">
+                <h3 slot="heading">
+                    Testing Webcomponent
+                </h3>
+                <span slot="icon">
+                    <svg viewbox="0 0 448 512">
+                        <path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/>
+                    </svg>
+                </span>
+                <p slot="content">
+                    ipsum dolor sit amet, consectetur adipisicing elit. Est ipsa nemo ratione ut eligendi molestiae.
+                </p>
+            </collapsible-text> 
+        </ul>
+    </main>
+
+    <script src="collapsible-text/collapsibleText.js"></script>
+</body>
+</html>
