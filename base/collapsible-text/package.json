@@ -1,6 +1,6 @@
 {
   "name": "@mikeromeo/collapsible-text",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Collapsible text component",
   "main": "collapsibleText.js",
   "repository": "mikeeromeo/webcomponents/base/collapsible-text",
